@@ -6,21 +6,34 @@ body {
      font-size: 18px;
 }
 
-Header, Nav, Section, Aside,  Footer {
+header, nav, Section, aside,  footer {
     background: #ebebeb;
     }
 
-    Article{
+    article{
       color: #ebebeb;
       background: #777;
     }
 
 h1, p {
       color: #777;
-      background: #ebebeb
+      background: #ebebeb;
 }
 
 header, nav{
     text-align: center;
-    width: 49
+    
 } 
+aside {
+    float: right;
+    height:50%;
+    width:50%;
+    padding-left: 0;
+}
+
+section {
+    width: 50%;
+    height: 50%;
+    padding-right: 0;
+
+}
